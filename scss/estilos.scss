@@ -1,0 +1,39 @@
+body{
+    background-color: slateblue;
+}
+header{ 
+    text-align: center;
+    background-color: burlywood;
+    h1{
+        color:crimson;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h3{ color: darkcyan;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        color: darkred;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba($color: #e7aa39, $alpha: 0.5);
+    a{
+        text-decoration: none;
+        color: tomato;
+    }
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+ div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba($color: #fdfdfd, $alpha: 0.5);
+ }
+}

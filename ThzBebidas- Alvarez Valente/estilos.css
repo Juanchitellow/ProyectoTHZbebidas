@@ -1,0 +1,263 @@
+.header__logoyslogan {
+    
+    width: 1250px;
+    height: 250px;
+    background-image: url(/Users/aca/Documents/Header2.jpeg); width: 100%;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    
+
+}
+
+body {
+
+
+
+
+    
+    background-color: grey;
+    background-image: url(/Users/aca/Documents/CoderHouse/Html\ y\ Css/ProyectoTHZbebida/9570.jpg);
+    background-size: cover;
+    
+
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive; 
+    color: peru;
+    -webkit-text-stroke: 0.002px black;
+     font-size: 50px;
+}
+
+h2 {
+    -webkit-text-stroke: 1px black;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: wheat;
+   
+    
+
+}
+
+i {
+    font-family: 'Baloo Tammudu 2', cursive;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 20px;
+    color: wheat;
+}
+.divPadre{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__centrado {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    color: grey;
+}
+
+.link {
+    font-family: 'Signika', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: peru;
+    
+}
+.link:hover{
+    background-color: burlywood;
+    text-decoration: none;
+    color: white
+    
+}
+
+form {
+    font-family: 'Signika', sans-serif;
+
+}
+.divmen{
+    background-color: rgba(0,0,0,0.8);
+    width: 1250px;
+    height: 25px;
+    padding-top: 7px;
+    padding-bottom: 2.5px;
+}
+.section__div--redes {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.8);
+    margin-left: 225px;
+    margin-right: 225px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    color: grey;
+    justify-content: space-evenly;
+    transition: all 3s;
+    border-radius: 10px;
+}
+.section__div--redes:hover {
+    transform: scale(1.1);
+
+}
+.section__div--Qs {
+    background-color: rgba(0,0,0,0.8);
+    margin-left: 275px;
+    margin-right: 275px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    transition: all 3s;
+    border-radius: 10px;
+    text-align: center;
+}
+  
+.section__div--Qs:hover {
+    transform: scale(1.1);
+    
+}
+.carousel-inner { text-align: center; }
+.carousel .item > img { display: inline-block; }
+
+.section__div--DE {
+    background-color: rgba(0,0,0,0.8); 
+    margin-left: 275px;
+    margin-right: 270px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    transition: all 3s;
+    border-radius: 10px;
+}
+
+.section__div--DE:hover {
+    transform: scale(1.1);
+
+}
+
+nav{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: space-between;
+    font-family: 'Signika', sans-serif;
+    
+}
+nav div div a{
+    padding-top: 5.5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    
+   
+  
+}
+nav a:hover{
+    background-color: burlywood;
+    text-decoration: none;
+}
+.nav__div--menu{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    margin-left: 50px;
+}
+.grid {
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns:200px 200px 200px;
+    grid-template-rows: 200px 200px ;
+    width: 1200px;   
+    justify-content: space-evenly;
+    align-content: center;
+    
+    
+
+}
+
+.Promos {
+    display: flex;
+    border: 1px solid black;
+    background-color: grey;
+    justify-self: stretch;
+
+}
+form {
+    
+    margin-left: 20px;
+    font-family: 'Signika', sans-serif;
+    color: grey;
+   
+}
+.sectionRe {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.8);
+    font-family: 'Signika', sans-serif;
+    color: grey;
+    border-radius: 10px;
+}
+.footer__derechosymoderacion {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Signika', sans-serif;
+    color: grey;
+    justify-content: space-between ;
+    background-color:black
+}
+.footer__div--redes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 55px;
+    justify-content: center;
+   }
+.footer__divdiv--redes{
+    margin-left: 7px;
+}   
+/*MENÚ CON SUBMENÚ* /
+
+
+
+ul.menu{
+    list-style: none;
+    font-size: 0;
+}
+
+li{
+    display: inline-block;
+    width: 15%;
+    position: relative;
+    font-size: 14px;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li{
+    display: block  ;
+      
+}
+
+ul li:hover ul {
+    display: block;
+    background-color: burlywood;
+}
+ul li:hover{
+    background-color: burlywood;
+}
+

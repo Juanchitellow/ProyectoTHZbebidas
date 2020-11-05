@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectoTHZ</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Signika:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header__logoyslogan col-lg-12 col col-md-12 col-sm-12">
+        
+        <br>
+        <br>
+        <h1><b>THZ</b></h1>
+        <h2>Distribuidora familiar</h2>
+
+        <br>
+        <br>
+        <i>No solo sabemos, tambien tenemos lo que <b>vos</b> necesitas</i>
+    </header>
+   
+    <nav class=" container-fluid col-lg-12 col col-md-12 col-sm-12">
+   
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Nuestros Productos
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="nuestrosProductos.html">Cervezas</a>
+              <a class="dropdown-item" href="nuestrosProductos.html">Vinos</a>
+              <a class="dropdown-item" href="nuestrosProductos.html">Aperitivos</a>
+              <a class="dropdown-item" href="nuestrosProductos.html">Vodkas y Whiskys</a>
+              <a class="dropdown-item" href="nuestrosProductos.html">Consumo Domestico</a>
+            </div>
+        </div>
+        <div class="nav__div--menu">
+            <div class="nav__div--menu"><a class="link" href="index.html">Home</a></div>
+            <div class="nav__div--menu"><a class="link" href="quienesSomos.html">Quiénes somos?</a></div>
+            <div class="nav__div--menu"><a class="link" href="dondeEncontrarnos.html">Dónde encontrarnos?</a></div>
+            <div class="nav__div--menu"><a class="link" href="contacto.html">Contacto</a></div>    
+        </div>
+   
+    </nav>
+    <section>
+    <div class="centrado1">
+        <h3>Combos y Promociones</h3> 
+        Encontrá acá abajo nuestras promociones o descargá nuestro catálogo entero haciendo click <div><a class="link" href="catalogo.pdf">aquí</a></div>
+    </div>
+    
+</section>
+    
+
+    <section>
+        <div class="grid">
+            <div class="Promos">Promo1</div>
+            <div class="Promos">Promo2</div>
+            <div class="Promos">Promo3</div>
+            <div class="Promos">Promo4</div>
+            <div class="Promos">Promo5</div>
+            <div class="Promos">Promo6</div>
+        </div>
+    </section>
+
+    <br>
+<hr>
+
+<br>
+
+<footer class="footer__derechosymoderacion col-lg-12 col-md-12 col-sm-12">
+    <div>
+    Contacto
+    <br>
+    Yerbal 1020, Caballito, Capital Federal, Argentina, 1405
+    <br>
+    thz.info@thz.com.ar
+    <br>
+    Tel: +54 9 11 39174693
+    <br>
+
+    ©THZ Distribuidora 2020 -Todos los derechos reservados.</div>
+    
+    <div>
+         <div class="footer__div--redes">
+             <div class="footer__divdiv--redes"><a href="https://www.instagram.com/thzdistribuidora/"><img src="instagram.png"alt="thz"></a></div>
+             <div class="footer__divdiv--redes"><a href="https://www.facebook.com/thzdistribuidora-114942876977633"> <img src="facebook.png" alt="thz"></a></div>
+             <div class="footer__divdiv--redes"><a href="https://twitter.com/THZDISTRIBUIDO1?s=08"><img src="twitter (1).png" alt=""></a></div>
+         </div>     
+
+        <div>Beber con moderación. Prohibida su venta a menores de 18 años</div> 
+    </div>
+</footer>
+<div class="modal fade col-lg-4 col col-md-6 col-sm-12" id="mostrarmodal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h3>Validacion De Edad</h3>
+         </div>
+         <div class="modal-body">
+            <h4>Tenes mas de 18 años?</h4>
+            Queda prohibido el consumo y venta de bebidas alcoholicas a menores de 18 años
+     </div>
+         <div class="modal-footer">
+        <a href="#" data-dismiss="modal" class="btn btn-primary">Si, soy mayor</a>
+         </div>
+         <div class="modal-footer">
+             <a href="www.google.com" data-dismiss="modal" class="btn btn-danger">No, no soy mayor</a>
+         </div>
+    </div>
+ </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function()
+  {
+     $("#mostrarmodal").modal("show");
+  });
+</script>
+</body>
+</html>
