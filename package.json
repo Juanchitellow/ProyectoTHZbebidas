@@ -1,7 +1,6 @@
 {
   "name": "proyectothzbebida",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +12,15 @@
   "devDependencies": {
     "node-sass": "^4.14.1",
     "nodemon": "^2.0.6"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanchitellow/ProyectoTHZbebidas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Juanchitellow/ProyectoTHZbebidas/issues"
+  },
+  "homepage": "https://github.com/Juanchitellow/ProyectoTHZbebidas#readme",
+  "description": ""
 }
